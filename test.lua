@@ -3,7 +3,7 @@ local speaker = peripheral.find("speaker")
 
 -- Speakers play at 48kHz, so 1.5 seconds is 72k samples. We first fill our buffer
 -- with 0s, as there's nothing to echo at the start of the track!
-local samples_i, samples_n = 1, 48000 * 1
+local samples_i, samples_n = 1, 48000 * 1.5
 local samples = {}
 for i = 1, samples_n do samples[i] = 0 end
 
