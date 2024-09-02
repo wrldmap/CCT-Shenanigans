@@ -1,5 +1,0 @@
-local dfpwm = require("cc.audio.dfpwm")
-local speaker = peripheral.find("speaker")
-local music = io.open(lady.dfpwm)
-
-speaker.play(music)
