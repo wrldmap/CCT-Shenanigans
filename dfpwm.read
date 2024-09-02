@@ -8,7 +8,7 @@ local samples = {}
 for i = 1, samples_n do samples[i] = 0 end
 
 local decoder = dfpwm.make_decoder()
-for chunk in io.lines("data/example.dfpwm", 16 * 1024) do
+for chunk in io.lines("lady.dfpwm", 16 * 1024) do
     local buffer = decoder(chunk)
 
     for i = 1, #buffer do
