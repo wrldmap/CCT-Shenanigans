@@ -4,7 +4,12 @@ local num3 = math.random(1000)
 local rand = math.random(3000)
 local num = num1+num2+num3
 print(num)
+print("")
+print("")
+print("")
 
 if num == rand then
   print("you won!!!")
+else
+  print("you lost :(")
 end
