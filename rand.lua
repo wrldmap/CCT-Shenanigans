@@ -5,6 +5,6 @@ local rand = math.random(3000)
 local num = num1+num2+num3
 print(num)
 
---if num == rand then
---  print("you won!!!")
---end
+if num == rand then
+  print("you won!!!")
+end
