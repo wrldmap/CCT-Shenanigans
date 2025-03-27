@@ -1,6 +1,6 @@
 -- made by pineapple (https://github.com/pinn3apple)
 
-local monitor = peripheral.find("monitor")
+local monitor = peripheral.wrap("left")
 if not monitor then
     print("No monitor found!")
     return
@@ -10,7 +10,7 @@ monitor.setTextScale(1)  -- Adjust as needed
 monitor.setBackgroundColor(colors.black)
 monitor.clear()
 
-local text = "Hi!"  
+local text = "steampunk :D"  
 local colorsList = {
     colors.red, colors.orange, colors.yellow,
     colors.lime, colors.cyan, colors.blue,
